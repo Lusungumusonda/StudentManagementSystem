@@ -1,0 +1,235 @@
+.top-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .2px .4px;
+}
+
+.semi-top-form{
+    -fx-background-color:#efefef;
+    -fx-border-color:#000;
+    -fx-border-width:.2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#fb3d63;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.minimize:hover{
+    -fx-background-color:#ddd;
+}
+
+.nav-form{
+ -fx-background-color: linear-gradient( #F2075D, #D3004C, #9B0038);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-text-fill:#F8F8FF;
+    -fx-font-size:15px;
+     -fx-font-family: 'Poppins', sans-serif;
+    -fx-alignment:CENTER-LEFT;
+}
+.nav-btn: hover{
+-fx-background-color: linear-gradient(to top, #F2075D, #9B0038, #000000);
+}
+.logout{
+     -fx-background-color: #40012F;
+    -fx-background-radius:10px;
+    -fx-cursor:hand;
+}
+.logout:hover{
+    -fx-background-color:#3AA6B9;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4), 6,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius:8px;
+}
+
+.card{
+   -fx-background-color: linear-gradient(to right, #F2075D, #9B0038, #000000);
+    -fx-background-radius:4px;
+}
+
+.search{
+    -fx-background-color:transparent;
+     -fx-border-color:linear-gradient(to bottom right, #2d658c, #2ca772);
+    -fx-border-width:.8px;
+    -fx-border-radius:8px;
+      -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size:14px;
+    -fx-padding:0px 0px 0px 28px;
+}
+.search:focused{
+    -fx-border-width:1.8px;
+}
+
+.table-view{
+    -fx-background-color:transparent;
+    -fx-padding:0px;
+     -fx-border-color:linear-gradient(to bottom right, #2d658c, #2ca772);
+    -fx-border-width:2px;
+    -fx-border-radius:8px;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to top, #F2075D, #9B0038, #000000);
+    -fx-background-radius:8px 8px 0px 0px;
+    -fx-background-inset: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size:40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill:#fff;
+    -fx-font-family:"poppins", sans-serif;
+}
+
+.textfield{
+    -fx-background-color:#FBF6E9;
+    -fx-background-radius:4px;
+    -fx-border-width:.8px;
+    -fx-font-family:"Tahoma";
+    -fx-border-radius:4px;
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-width:1px;
+}
+
+.insert-btn{
+    -fx-background-color:transparent;
+    -fx-text-fill:blue;
+    -fx-font-size:14px;
+    -fx-font-family:"lemon";
+    -fx-cursor:hand;
+}
+
+.add-btn{
+    -fx-background-color:#D91656;
+    -fx-background-radius:20px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+}
+.add-btn:hover{
+    -fx-background-color:#1A1A1D;
+}
+
+.update-btn{
+    -fx-background-color:#1A1A1D;
+    -fx-background-radius:20px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+}
+.update-btn:hover{
+    -fx-background-color:#D91656;
+}
+
+.delete-btn{
+    -fx-background-color:#D91656;
+    -fx-background-radius:20px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+}
+.delete-btn:hover{
+    -fx-background-color:#1A1A1D;
+}
+
+.clear-btn{
+    -fx-background-color:#1A1A1D;
+    -fx-background-radius:20px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+}
+.clear-btn:hover{
+    -fx-background-color:#D91656;
+}
+
+.label-info{
+    -fx-background-color:#fff;
+    -fx-background-radius:4px;
+    -fx-background-color:#FBF6E9;
+    -fx-border-width:.8px;
+    -fx-font-family:"Times";
+    -fx-border-radius:4px;
+    -fx-padding:0px 0px 0px 5px;
+}
+/* Apply styles to your custom class `chartcolor` */
+.chartcolor .chart-series-line.default-color0 {
+    -fx-stroke: #FF9EAA; /* Bright pink for the first series */
+}
+
+.chartcolor .chart-series-line.default-color1 {
+    -fx-stroke: #FF9EAA; /* Darker pink for the second series */
+}
+
+.chartcolor .chart-series-line.default-color2 {
+    -fx-stroke: #F56A9A; /* Light pink for the third series */
+}
+
+.chartcolor .chart-series-line.default-color3 {
+    -fx-stroke: #E83F79; /* Vibrant pink for the fourth series */
+}
+
+/* For BarChart or charts with fills */
+.chartcolor .default-color0.chart-bar {
+    -fx-bar-fill: #FFD0D0; /* Bright pink for the first series */
+}
+
+.chartcolor .default-color1.chart-bar {
+    -fx-bar-fill: #FF9EAA; /* Darker pink for the second series */
+}
+
+.chartcolor .default-color2.chart-bar {
+    -fx-bar-fill: #F56A9A; /* Light pink for the third series */
+}
+
+.chartcolor .default-color3.chart-bar {
+    -fx-bar-fill: #FFD0D0; /* Vibrant pink for the fourth series */
+}
+
+/* Optional: Styling scatter symbols */
+.chartcolor .default-color0.chart-symbol {
+    -fx-background-color: #F2075D; /* Bright pink */
+}
+
+.chartcolor .default-color1.chart-symbol {
+    -fx-background-color: #9B0038; /* Darker pink */
+}
+
+.chartcolor .default-color2.chart-symbol {
+    -fx-background-color: #F56A9A; /* Light pink */
+}
+
+.chartcolor .default-color3.chart-symbol {
+    -fx-background-color: #E83F79; /* Vibrant pink */
+}
+#addStudents_insertBtn{
+-fx-font-family:"Arial";
+-fx-font-weight: bold;
+-fx-text-fill:#000000;
+}
